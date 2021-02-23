@@ -51,4 +51,4 @@ def parsing_json_object(file_name):
                 if type(A[choose_next_key]) != list and type(A[choose_next_key]) != dict:
                     res_lst.append(A[choose_next_key])
             return res_lst
-    return "Key not in file"
+    return "Key is not in file"
